@@ -1,0 +1,18 @@
+{
+  "name": "sendmessage",
+  "version": "1.0.0",
+  "description": "this is an api to send message to moshiur rahman masud , birganj,dinajpur",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Md Moshiur Rahman",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.0",
+    "nodemailer": "^6.9.1"
+  }
+}
