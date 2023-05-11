@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "this is an api to send message to moshiur rahman masud , birganj,dinajpur",
   "main": "index.js",
+  "engines": {
+    "npm": "6.14.13",
+    "node": "v14.20.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
