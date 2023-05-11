@@ -23,7 +23,7 @@ const transporter = nodemailer.createTransport({
   });
   
   const mailOptions = {
-    from: 'dev.moshiurr@gmail.com',
+    from: req.body.email,
     to: 'dev.moshiurr@gmail.com',
     subject: `Message from ${req.body.appName || 'unknown app'}`,
     html: `
